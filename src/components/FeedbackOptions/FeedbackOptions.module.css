@@ -1,0 +1,10 @@
+.container_btns {
+  display: flex;
+  margin-left: 35px;
+  gap: 10px;
+}
+
+.btn {
+  color: black;
+  background-color: #fff;
+}

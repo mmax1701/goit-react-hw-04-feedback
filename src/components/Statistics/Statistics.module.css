@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 18px;
+}
+
+.list li {
+  margin-right: 15px;
+}
+
+.total_wrap {
+  display: flex;
+  margin-left: 35px;
+  gap: 20px;
+}
