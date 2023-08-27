@@ -5,13 +5,11 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     const oprionsArray = Object.entries(options);
     return (
         <div className={css.container_btns}>
-            {
-                oprionsArray.map(option => (
+            {oprionsArray.map(option => (
                     <button type='button' key={option[0]} className={css.btn}
-                        onClick={() => onLeaveFeedback(option[0])}>{option[0]}</button>
-                ))
+                    onClick={() => onLeaveFeedback(option[0])}>{option[0]}</button>
+            ))
             }
-            
         </div>
     )
 };
